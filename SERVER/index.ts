@@ -4,8 +4,6 @@ import express from "express";
 import apiRoutes from "./routes/openAIRoutes";
 import cors from "cors";
 
-console.log("dotenv: ", process.env.OPEN_AI_API);
-
 const port = 3000;
 const app = express();
 
